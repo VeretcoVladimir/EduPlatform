@@ -1,0 +1,83 @@
+.header {
+	height: 4rem;
+	padding: 1rem;
+	background-color: $color-green;
+	color: $color-white;
+}
+.logo {
+	font-size: 2em;
+}
+.dashboard {
+	height: calc(100% - 4rem);
+
+
+	&__left {
+		position: relative;
+		height: 100%;
+		width: 50%;
+		float: left;
+	}
+
+	&__right {
+		height: 100%;
+		width: 50%;
+		float: right;
+	}
+}
+
+
+.sidebar {
+	background-color: #EDEDED;
+	padding: 1rem;
+	min-height: 40%;
+}
+
+.task_text {
+	h1, h2, h3, h4, h5, h6 {
+		margin-top: 0;
+	}
+
+	td {
+		border: 2px solid #6A6A6A;
+		padding: .3rem;
+		text-align: center;
+	}
+}
+
+.game_app {
+	min-height: 60%;
+}
+
+.code_editor {
+	height: 100%;
+
+	&__editor {
+		height: 100%;
+		width: 100%;
+	}
+}
+
+.send_code {
+	position: absolute;
+	right: 1rem;
+	bottom: 1rem;
+}
+
+.button {
+	background: $color-red;
+	border: none;
+	display: block;
+	padding: .5rem 1rem;
+	text-transform: uppercase;
+	color: $color-white;
+	font-weight: bold;
+}
+
+.game_app {
+	text-align: center;
+	padding-top: 1rem;
+}
+
+.game_container {
+	display: inline-block;
+}
