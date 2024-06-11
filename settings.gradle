@@ -1,4 +1,4 @@
-rootProject.name = 'GamePro100'
+rootProject.name = 'EduPlatform'
 include 'lesson-service'
 include 'user-service'
 include 'gateway-service'
